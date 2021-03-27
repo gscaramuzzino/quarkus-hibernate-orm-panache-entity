@@ -14,9 +14,9 @@ This project uses Quarkus, the Supersonic Subatomic Java Framework.
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
 
 ## Docker PostgreSQL
-
+```shell script
 docker run --name my_db -e POSTGRES_USER=username -e POSTGRES_PASSWORD=password -e POSTGRES_DB=my_db -p 5432:5432 postgres:10.5
-
+```
 ## Running the application in dev mode
 
 You can run your application in dev mode that enables live coding using:
@@ -75,3 +75,4 @@ REST is easy peasy with this Hello World RESTEasy resource.
 This example demonstrate RESTEasy JSON serialisation by letting you list, add and remove quark types from a list. Quarked!
 
 [Related guide section...](https://quarkus.io/guides/rest-json#creating-your-first-json-rest-service)
+=======
