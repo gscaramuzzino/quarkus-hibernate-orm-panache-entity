@@ -12,44 +12,12 @@ import java.util.Date;
 public class Movie extends PanacheEntity {
 
     @Column(length = 100)
-    private String title;
+    public String title;
 
     @Column(length = 200)
-    private String description;
+    public String description;
 
-    private String director;
+    public String director;
 
-    private String country;
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
-    public String getDirector() {
-        return director;
-    }
-
-    public void setDirector(String director) {
-        this.director = director;
-    }
-
-    public String getCountry() {
-        return country;
-    }
-
-    public void setCountry(String country) {
-        this.country = country;
-    }
+    public String country;
 }
